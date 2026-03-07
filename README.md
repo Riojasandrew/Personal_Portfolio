@@ -1,2 +1,2 @@
 # Personal_Portfolio
-Full design of a custom portfolio of my own!
+Build design of a custom portfolio of my own!

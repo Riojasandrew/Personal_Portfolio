@@ -3,6 +3,7 @@ Build design of a custom portfolio of my own!
 
 Portfolio Website Update Log
 3/5/26
+
 Intro Section:
 Worked on building the main structure of the portfolio homepage. Created the navigation bar with links for Home, Projects, About, and Contact so visitors can move around the site easily.
 Added an intro section at the top of the page to introduce the site and the developer. This includes:
@@ -14,6 +15,7 @@ Each project card includes:
 •	Project title
 •	Short description
 •	Styling
+
 3/6/26 - 3/7/26
 Small Fixes:
 •	Corrected spelling errors (portfolio, recommendation)

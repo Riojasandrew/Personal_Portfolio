@@ -7,6 +7,7 @@ html, body {
 body {
   margin: 0;
   font-family: system-ui, Arial, sans-serif;
+  /* default background if not applied to others */
   background: #0b0f19;
   color: #e9eefc;
 }
@@ -47,7 +48,7 @@ body {
   padding: 26px 0 40px;
 }
 
-/* intro design from 51-72 */
+/* intro design */
 .intro {
   padding: 22px;
   border: 1px solid rgba(255,255,255,0.08);
@@ -70,7 +71,8 @@ body {
   gap: 12px;
   flex-wrap: wrap;
 }
-/* Button design from 74-87 */
+
+/* Button design */
 .btn {
   display: inline-block;
   padding: 10px 14px;
@@ -86,7 +88,7 @@ body {
   border: 1px solid rgba(255,255,255,0.18);
 }
 
-/* boards design and placement setup from 90-123 */
+/* Home page boards */
 .boards {
   display: flex;
   gap: 14px;
@@ -100,6 +102,7 @@ body {
   border-radius: 18px;
   border: 1px solid rgba(255,255,255,0.08);
   background: rgba(255,255,255,0.04);
+  transition: all 0.2s ease;
 }
 
 .board h2 {
@@ -122,9 +125,102 @@ body {
   text-decoration: underline;
 }
 
+.board:hover {
+  transform: translateY(-5px);
+}
+
+/********************** Contact.html *****************************/
+body.contact-page {
+  background: #313338;
+}
+
+.contact_container {
+  width: min(1000px, 92%);
+  margin: 0 auto;
+  padding: 26px 0 40px;
+}
+
+.contact-board {
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  max-width: 600px;
+  margin: 40px auto 0;
+}
+
+/********************** Projects.html *****************************/
+body.project-page {
+  background: #10172b;
+}
+
+.project-header h1 {
+  margin-bottom: 18px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project-board {
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.04);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.project-board img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.project-board h2 {
+  margin: 14px 0 8px;
+}
+
+.project-board p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+/**************** About Me html***********************************************/
+
+.profile-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 30px auto 20px auto;
+}
+
+.about-me-container{
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  
+}
+
+.about-me-container p{
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.about-me-page{
+  background:#10172b;
+}
+
+/************************************************************************************************/
 /* Footer */
 .footer {
   margin-top: 22px;
   opacity: 0.75;
   font-size: 14px;
+  text-align: center;
 }

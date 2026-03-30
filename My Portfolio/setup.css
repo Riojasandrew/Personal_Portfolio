@@ -129,6 +129,13 @@ body {
   transform: translateY(-5px);
 }
 
+.current-project{
+  font-size: 15px;
+  opacity: 1;
+  margin: 0 0 15px;
+  
+}
+
 /********************** Contact.html *****************************/
 body.contact-page {
   background: #313338;
@@ -156,6 +163,15 @@ body.project-page {
 
 .project-header h1 {
   margin-bottom: 18px;
+}
+/* Update added a divider for user */
+.project-header h1::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 58;
+  background: #3b82f6;
+  margin-top: 7px;
 }
 
 .project-list {
@@ -188,6 +204,14 @@ body.project-page {
   opacity: 0.9;
 }
 
+/******** Update hover effect that adjust containers up a bit ONLY project section ************/
+.project-board {
+  transition: all 0.2s ease;
+}
+.project-board:hover{
+  transform: translateY(-5px);
+}
+
 /**************** About Me html***********************************************/
 
 .profile-img{
@@ -214,6 +238,64 @@ body.project-page {
 
 .about-me-page{
   background:#10172b;
+}
+
+/***************************** Boards.html ******************************************************************/
+.board-page{
+  background: #0e1426;
+}
+
+.board-page h1{
+  color: #ffffff;
+}
+
+.project-objective h2{
+  color: #3b82f6;
+}
+
+.project-content h3{
+  color: #e9eefc;
+}
+
+.project-content h4{
+  color: #93c5fd;
+}
+
+/*style both*/
+.project-objective p, 
+.project-content p{
+  color: #cbd5f5;
+}
+
+
+
+
+
+/*********************************************************************************************/
+
+/**************************** Live Link Server ************************************/
+.project-live-server{
+  display: inline-block;
+  color:#3b82f6;
+  font-weight: 600;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.project-live-server:hover{
+  text-decoration: underline;
+}
+
+.project-link{
+  display: inline-block;
+  color:#3b82f6;
+  font-weight: 600;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.project-link:hover{
+  text-decoration: underline;
 }
 
 /************************************************************************************************/
